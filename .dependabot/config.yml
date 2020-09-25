@@ -1,0 +1,23 @@
+version: 1
+update_configs:
+  - package_manager: docker
+    directory: /0.0.7-alpine
+    update_schedule: daily
+    automerged_updates:
+      - match:
+          dependency_type: all
+          update_type: all
+  - package_manager: docker
+    directory: /0.0.7-buster
+    update_schedule: daily
+    automerged_updates:
+      - match:
+          dependency_type: all
+          update_type: all
+  - package_manager: docker
+    directory: /0.0.7-buster-slim
+    update_schedule: daily
+    automerged_updates:
+      - match:
+          dependency_type: all
+          update_type: all
