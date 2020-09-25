@@ -12,8 +12,3 @@ $ docker pull kakakakakku/htmllint-cli
 $ docker run kakakakakku/htmllint-cli --version
 $ docker run -v ${PWD}:/assets kakakakakku/htmllint-cli --cwd /assets
 ```
-
-## Supported versions
-
-- v0.0.6
-- v0.0.7 (latest)
