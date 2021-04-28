@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: docker
+  directory: "/0.0.7-alpine"
+  schedule:
+    interval: daily
+    time: "20:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: docker
+  directory: "/0.0.7-buster"
+  schedule:
+    interval: daily
+    time: "20:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: docker
+  directory: "/0.0.7-buster-slim"
+  schedule:
+    interval: daily
+    time: "20:00"
+  open-pull-requests-limit: 10
